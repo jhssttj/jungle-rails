@@ -15,11 +15,11 @@
         <%= button_to add_item_cart_path(product_id: product.id), class: 'btn disabled' ,
         method: :post do %>
           <%= fa_icon "shopping-cart", text: 'Add' %> 
-        <% end %>
         </div>
+        <% end %>
         <% else %>
         <div>
-        <%= button_to add_item_cart_path(product_id: product.id), class: 'btn disabled' ,
+        <%= button_to add_item_cart_path(product_id: product.id), class: 'btn' ,
         method: :post do %>
           <%= fa_icon "shopping-cart", text: 'Add' %> 
         <% end %>

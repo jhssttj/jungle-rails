@@ -1,2 +1,36 @@
 <h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+<p> The total product count is <%= @products_count%></p>
+<p> The total category count is <%= @category_count%></p>
+  
+ <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Counts</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+         <tr>
+          <td>
+            Products
+          </td>
+          <td>
+            <%= @products_count %>
+          </td>
+        </tr>
+
+        <tr>
+        <td>
+          Categories
+        </td>
+        <td>
+         <%= @category_count %>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+

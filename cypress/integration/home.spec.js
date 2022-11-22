@@ -1,4 +1,3 @@
-
 describe('Jungle home page', () => {
   beforeEach(() => {
     cy.visit('/')

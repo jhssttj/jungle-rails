@@ -11,6 +11,11 @@ In this project, I have learned about the features in Rails by fixing bugs and a
   Order cannot be placed if there is no current logged in user.
   - Missing Admin Security: Add restriction so that admin accessible page can only be accessed once admin username and password is inputted.
   - Checking Out with Empty Cart: Fix a bug where checking out with an empty cart wouldn't allow a purchase to go through. Rather a friendly message that the cart is empty and a link to the product page is displayed.
+
+  ![Jungle main page](https://github.com/jhssttj/jungle-rails/blob/master/public/README%20images/Jungle-Pic-1.PNG?raw=true)
+  ![Jungle cart page](https://github.com/jhssttj/jungle-rails/blob/master/public/README%20images/Jungle-Pic-2.PNG?raw=true)
+  ![Jungle order page](https://github.com/jhssttj/jungle-rails/blob/master/public/README%20images/Jungle-Pic-3.PNG?raw=true)
+  ![Jungle admin page](https://github.com/jhssttj/jungle-rails/blob/master/public/README%20images/Jungle-Pic-4.PNG?raw=true)
 ## Setup
 
 1. Run `bundle install` to install dependencies
